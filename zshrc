@@ -111,3 +111,17 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #source /usr/share/nvm/init-nvm.sh
+source /usr/share/nvm/init-nvm.sh
+
+export PATH="/home/abderrahim/.deno/bin:$PATH"
+
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Starship pompt 
+
+eval "$(starship init zsh)"
